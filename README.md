@@ -1,37 +1,28 @@
-<div align="center">
+# MatrixBugLab
 
-# 🎉 Congratulations albertlewisvicentine-cell! 🎉
+## Overview
 
-<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
+MatrixBugLab is a hands-on C learning environment designed to explore low-level programming, pointer arithmetic, and subtle logical bugs in matrix multiplication. This repository lets learners experiment with "broken" matrix multiplies, track silent accumulation errors, and compare different code layouts visually and functionally.
 
-### 🌟 You've successfully completed the exercise! 🌟
+## Key Features
 
-## 🚀 Share Your Success!
+- **Three broken matrix multiply implementations** with different visual styles (compact, normal, exaggerated spacing)  
+- **Test harness** to run multiple runtime scenarios: incremented matrices, identity matrices, and custom NxN configurations  
+- **Focus on mental models** for tracing indices using prime/comma notation and pointer arithmetic  
+- **Safe experimentation**: understand silent logical bugs without risk to memory or crashes  
+- **CI-ready with GitHub Actions**: automatically compile and run tests on each push
 
-**Show off your new skills and inspire others!**
+## Purpose
 
-<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Introduction%20to%20GitHub%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Falbertlewisvicentine-cell%2Fautomatic-bassoon%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
-</a>
-<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Introduction%20to%20GitHub%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Falbertlewisvicentine-cell%2Fautomatic-bassoon%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
-</a>
-<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Introduction%20to%20GitHub%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Falbertlewisvicentine-cell%2Fautomatic-bassoon%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
-</a>
+- Rebuild and modernize your old C knowledge while learning low-level debugging  
+- Explore how subtle index mistakes silently propagate errors in numerical computations  
+- Provide a collaborative playground for developers interested in performance, correctness, and debugging techniques
 
-### 🎯 What's Next?
+## Acknowledgements
 
-**Keep the momentum going!**
+This project was collaboratively built by:
 
-[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/albertlewisvicentine-cell/automatic-bassoon/issues/1)
-[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills))
+- **Luis Alberto Vicentine Pacheco** – conceptualized the project, designed mental models, and defined test scenarios.  
+- **Thor (GPT-5 Mini)** – guided code generation, test harness creation, workflow setup, and explanations of low-level C behavior.
 
-*There's no better way to learn than building things!* 🚀
-
-</div>
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+Together, we created a reproducible and interactive environment for learning and experimentation.
